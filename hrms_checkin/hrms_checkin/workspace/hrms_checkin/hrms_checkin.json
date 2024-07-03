@@ -1,0 +1,38 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"HG_-zv60SV\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"cvGkFiDRmG\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Check In Button Custom HTML Block\",\"col\":12}}]",
+ "creation": "2024-07-03 12:05:00.693745",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Check In Button Custom HTML Block",
+   "label": "Check In Button Custom HTML Block"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "change",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Hrms Checkin",
+ "links": [],
+ "modified": "2024-07-03 12:06:08.939466",
+ "modified_by": "mohammadsami.ansari@fusionsofttech.co.in",
+ "module": "Hrms Checkin",
+ "name": "Hrms Checkin",
+ "number_cards": [],
+ "owner": "mohammadsami.ansari@fusionsofttech.co.in",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Employee"
+  }
+ ],
+ "sequence_id": 40.0,
+ "shortcuts": [],
+ "title": "Hrms Checkin"
+}
