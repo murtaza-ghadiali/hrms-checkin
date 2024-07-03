@@ -6,6 +6,23 @@ app_email = "info@fusionsofttech.co.in"
 app_license = "mit"
 # required_apps = []
 
+#New
+after_install = "hrms_checkin.install.after_install"
+before_uninstall = "hrms_checkin.uninstall.before_uninstall"
+
+required_apps = ["frappe/erpnext", "frappe/hrms"]
+
+fixtures = ["Custom HTML Block"]
+
+
+
+
+
+
+
+
+
+
 # Includes in <head>
 # ------------------
 
