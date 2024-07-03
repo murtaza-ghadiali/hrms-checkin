@@ -11,53 +11,36 @@ Simple and easy-to-use employee dashboard for check-in and check-out.
 
 ## Introduction
 
-India Compliance has been designed to make compliance with Indian rules and regulations simple, swift and reliable. To this end, it has been carefully integrated with GST APIs to simplify recurring compliance processes.
+Hrms Checkin streamlines employee attendance management by offering a user-friendly interface where employees can log their attendance with just a click. The application displays essential details such as the employee's name and the last log detail, ensuring transparency and accuracy in attendance records.
 
-It builds on top of [ERPNext](https://github.com/frappe/erpnext) and the [Frappe Framework](https://github.com/frappe/frappe) - incredible FOSS projects built and maintained by the incredible folks at Frappe. Go check these out if you haven't already!
+It builds on top of [ERPNext](https://github.com/frappe/erpnext), [hrms](https://github.com/frappe/hrms) and the [Frappe Framework](https://github.com/frappe/frappe) - incredible FOSS projects built and maintained by the incredible folks at Frappe. Go check these out if you haven't already!
 
-## Key Features
+## Features
 
--   End-to-end GST e-Waybill management
--   Automated GST e-Invoice generation and cancellation
--   Advanced purchase reconciliation based on GSTR-2B and GSTR-2A
--   Autofill Party and Address details by entering their GSTIN
--   Configurable features based on business needs
--   Powerful validations to ensure correct compliance
-
-For a detailed overview of these features, please [refer to the documentation](https://docs.indiacompliance.app/).
+-   Includes role-based access, specifically designed for employees. This ensures that each user has access to the features relevant to their role.
+-   A straightforward button interface allows employees to easily check in or check out. This minimizes the time required for attendance logging and reduces errors.
+-   Each employee's workspace features a card displaying their name and the last log detail
+-   The last log detail provides information on the most recent check-in or check-out activity, ensuring employees are aware of their current status.
 
 ## Installation
 
-Once you've [set up a Frappe site](https://frappeframework.com/docs/v14/user/en/installation/), installing India Compliance is simple:
+Once you've set up a [Frappe site](https://frappeframework.com/docs/v14/user/en/installation/), [ERPNext](https://github.com/frappe/erpnext#installation) and [hrms](https://github.com/frappe/hrms#installation),  installing Hrms Checkin is simple:
 
 1.  Download the app using the Bench CLI.
 
     ```bash
-    bench get-app --branch [branch name] https://github.com/resilient-tech/india-compliance.git
+    bench get-app --branch [branch name] https://github.com/murtaza-ghadiali/hrms-checkin.git
     ```
 
-Replace `[branch name]` with the branch that you're using for Frappe Framework and ERPNext.
+Replace `[branch name]` with the branch that you're using for Frappe Framework, ERPNext and hrms.
 If it isn't specified, the `--branch` option will default to **develop**.
 
 2.  Install the app on your site.
 
     ```bash
-    bench --site [site name] install-app india_compliance
+    bench --site [site name] install-app hrms_checkin
     ```
-
-## In-app Purchases
-
-Some of the automation features available in India Compliance require access to [GST APIs](https://discuss.erpnext.com/t/introducing-india-compliance/86335#a-note-on-gst-apis-3). Since there are some costs associated with these APIs, they can be accessed by signing up for an India Compliance Account after installing this app.
-
-## Planned Features
-
--   Quick and easy filing process for GSTR-1 and GSTR-3B
-
-## Contributing
-
--   [Issue Guidelines](https://github.com/frappe/erpnext/wiki/Issue-Guidelines)
--   [Pull Request Requirements](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
 
 ## License
 
-[GNU General Public License (v3)](https://github.com/resilient-tech/india-compliance/blob/develop/license.txt)
+Hrms Checkin is released under the [MIT License.](https://github.com/murtaza-ghadiali/hrms-checkin/blob/develop/license.txt)
