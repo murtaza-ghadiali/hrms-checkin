@@ -41,6 +41,15 @@ If it isn't specified, the `--branch` option will default to **develop**.
     bench --site [site name] install-app hrms_checkin
     ```
 
+
+## Contributions and Community
+
+There are many ways you can contribute even if you don't code:
+
+1. You can start by giving a star to this repository!
+1. If you find any issues, even if it is a typo, you can [raise an issue](https://github.com/murtaza-ghadiali/hrms-checkin/issues/new) to inform us.
+
+
 ## License
 
 Hrms Checkin is released under the [MIT License.](https://github.com/murtaza-ghadiali/hrms-checkin/blob/develop/license.txt)
