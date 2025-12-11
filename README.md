@@ -4,6 +4,15 @@
 
 Simple and easy-to-use employee dashboard for check-in and check-out.
 
+<div align="center">
+	<a href="https://cloud.frappe.io/marketplace/apps/hrms_checkin" target="_blank">
+		<picture>
+			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/try-on-fc-white.png">
+			<img src="https://frappe.io/files/try-on-fc-black.png" alt="Try on Frappe Cloud" height="28" />
+		</picture>
+	</a>
+</div>
+
 <br><br>
 ![image](https://github.com/murtaza-ghadiali/hrms-checkin/blob/develop/hrms-checkin-dashboard.png)
 
